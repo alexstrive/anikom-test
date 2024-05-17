@@ -30,6 +30,6 @@ jobs:
     - name: Install pnpm
       uses: pnpm/action-setup@v4
 
-    - run: pnpm
+    - run: pnpm install
     - run: pnpm build
     - run: pnpm test
